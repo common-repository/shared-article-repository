@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shared Article Repository\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-24 16:02+0000\n"
+"PO-Revision-Date: 2017-04-24 16:02+0000\n"
+"Last-Translator: Administratormester <support@wp-hosting.no>\n"
+"Language-Team: Norwegian (Bokmål)\n"
+"Language: nb-NO\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: index.php:369
+msgid "Tags"
+msgstr "Tags"
+
+#: index.php:371
+msgid ""
+"Tags that will be added to articles shared from this library; comma-separated"
+msgstr ""
+"Tags som vil bli automatisk lagt til når de deles fra dette biblioteket, "
+"kommaseparert"
+
+#: shared-article.php:45
+msgid "Shared Articles"
+msgstr "Delte artikler"
+
+#: shared-article.php:46
+msgid "Article"
+msgstr "Artikkel"
+
+#: shared-article.php:126 index.php:159
+msgid "Library"
+msgstr "Bibliotek"
+
+#: shared-article.php:128
+msgid "Article Type"
+msgstr "Artikkeltype"
+
+#: shared-article.php:128
+msgid "Subscribers"
+msgstr "Abonnenter"
+
+#: shared-article.php:128
+msgid "Author"
+msgstr "Forfatter"
+
+#: shared-article-rest-controller.php:130
+#: shared-article-rest-controller.php:139
+msgid "Sorry, shared articles are only available for logged-in users."
+msgstr "Beklager - delte artikler er bare tilgjengelige for innloggede brukere"
+
+#: shared-article-rest-controller.php:133
+msgid "Sorry, this user cannot read shared articles."
+msgstr "Beklager - denne brukeren kan ikke lese delte artikler"
+
+#: shared-article-rest-controller.php:142
+msgid "Sorry, this user cannot edit or publish shared articles."
+msgstr ""
+"Beklager - denne brukeren kan ikke redigere eller publisere delte artikler"
+
+#: shared-article-rest-controller.php:205
+msgid "Post has been deleted."
+msgstr "Artikkelen er slettet"
+
+#: index.php:112
+msgid ""
+"The Shared Article Repository plugin requires that the "
+"WP_REST_Posts_Controller class exists. Either use a version of WordPress "
+"that includes this class, or use the <a href='https://wordpress."
+"org/plugins/json-rest-api/'>WP Rest API plugin</a>. The plugin has been "
+"deactivated."
+msgstr ""
+"Shared Article Repository-pluginen krever at WP_REST_Posts_Controller "
+"eksisterer. Bruk enten en versjon av Wordress som har denne klassen, eller "
+"installer <a href='https://wordpress.org/plugins/json-rest-api/'>WP Rest API "
+"plugin</a>en. Pluginen er nå deaktivert."
+
+#: index.php:123
+msgid ""
+"For this plugin to work properly with the REST api, you *must* activate "
+"pretty permalinks at"
+msgstr ""
+"For at denne pluginen skal virke korrekt med REST-apiet, *må* du aktivere "
+"pene permalenker-alternativet ved "
+
+#: index.php:125
+msgid "the permalink settings page"
+msgstr "Permalenke-instillinger siden"
+
+#: index.php:141 index.php:365
+msgid "Library Data"
+msgstr "Biblioteksdata"
+
+#. Name of the plugin
+#: index.php:238
+msgid "Shared Article Repository"
+msgstr "Delt artikkel-database"
+
+#: index.php:244
+msgid "Example option"
+msgstr "Eksempelinnstilling"
+
+#: index.php:285
+#, php-format
+msgid "Library Data for %s"
+msgstr "Bibliotekstdata for %s"
+
+#: index.php:293 index.php:376
+msgid "Connection Key"
+msgstr "Tilkoblingsnøkkel"
+
+#: index.php:294
+msgid ""
+"Post your connection key from your Shared Articles plugin here to connect"
+msgstr ""
+"Lim inn din tilkoblingsnøkkel fra din WL Article Adopter plugin her for å "
+"koble til"
+
+#: index.php:310
+msgid "Connection key removed"
+msgstr "Tilkoblingsnøkkel fjernet"
+
+#: index.php:321
+msgid "Not a valid connection key"
+msgstr "Ikke en gyldig tilkoblingsnøkkel"
+
+#: index.php:324
+msgid "Connection key updated"
+msgstr "Tilkoblingsnøkkel oppdatert"
+
+#: index.php:378
+msgid "The registered connection key. Delete this to disconnect the user."
+msgstr ""
+"Den registrerte tilkoblingsnøkkelen. Fjern denne for å avkoble brukeren."
+
+#: index.php:448 index.php:511
+msgid "No such article"
+msgstr "Artikkelen finnes ikke"
+
+#: index.php:452 index.php:487 index.php:515
+msgid "Not Authorized"
+msgstr "Autorisasjon mangler"
+
+#: index.php:456 index.php:519
+msgid "Not a shared article"
+msgstr "Ikke en delt artikkel"
+
+#: index.php:480 index.php:482
+msgid "A \"since\"-timestamp is necessary; use seconds since the Unix epoch"
+msgstr ""
+"Du må sende med et 'since'-datostempel - bruk sekunder siden Unix-epoken 1. "
+"januar 1970."
+
+#: index.php:563 index.php:565
+msgid "Subscriptions"
+msgstr "Abonnementer"
+
+#: index.php:564
+msgid "Subscription"
+msgstr "Abonnement"
+
+#. Description of the plugin
+msgid "A database of shared articles for participating websites"
+msgstr "En database for delte artikler av deltagende nettsteder"
+
+#. Author of the plugin
+msgid "Iver Odin Kvello"
+msgstr "Iver Odin Kvello"
